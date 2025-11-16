@@ -75,14 +75,14 @@ class Persona:
         return f'Persona: {self.__dict__.__str__()}'
 
 if __name__ == '__main__':
-    # persona1 = {"nombre":"Carlos", "ocupacion":"Estudiante"}
+    # persona1 = {"nombre":"john", "ocupacion":"Estudiante"}
     # print(persona1["nombre"])
     # print(type(persona1))
     #
     # print("*".center(80, "*"))
     #
-    # persona2 = Persona(nombre = 'Carlos Perez', genero = 'H', ocupacion='Estudiante', edad=20,
-    #                    cedula = '0987654312', email = 'cperez@mail.com', )
+    # persona2 = Persona(nombre = 'Mariana roles', genero = 'M', ocupacion='Estudiante', edad=18,
+    #                    cedula = '0987564312', email = 'mariaroles@gmail.com', )
     # print(persona2._nombre)
     #
     # print(type(persona2))
@@ -93,8 +93,8 @@ if __name__ == '__main__':
     #
     # print("*".center(80, "*"))
     #
-    # persona4 = Persona('0987654321', 'Maria Perez', 'mperez@mail.com',
-    #                    'M', 'Doctora', 30)
+    # persona4 = Persona('0987654321', 'Maria suarezz', 'msuarezz@mail.com',
+    #                    'M', 'licenciada', 40)
     # print(f'Nombre: {persona4._nombre}')
     # print(f'Cedula: {persona4._cedula}')
     # print(f'Email: {persona4._email}')
@@ -102,9 +102,9 @@ if __name__ == '__main__':
     #
     # print("*".center(80, "*"))
     #
-    # persona5 = Persona(nombre='Luis Paz', genero = 'H', ocupacion='Ingeniero'
+    # persona5 = Persona(nombre='Dario Mendoza', genero = 'H', ocupacion='Doctor'
     #                    , edad='Veinticinco',
-    #                    cedula = 1987654314, email = 'lperez@mail.com')
+    #                    cedula = 1981284314, email = 'dariomend@gmail.com')
     # print(f'Nombre: {persona5._nombre}')
     # print(f'Cedula: {persona5._cedula}')
     # print(f'Email: {persona5._email}')
